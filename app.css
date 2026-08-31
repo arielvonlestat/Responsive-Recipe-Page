@@ -112,7 +112,7 @@ ol {
 }
 
 .ingredients {
-  padding: 1.8rem;
+  padding: 1.3rem;
 }
 
 .ingredients li {
@@ -152,9 +152,7 @@ ol {
 }
 
 .instructions h3 {
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  padding-left: 1.5rem;
+  padding: 1rem 0 0.5rem 1.5rem;
 }
 
 .instructions ol {
