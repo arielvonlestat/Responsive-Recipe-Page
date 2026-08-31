@@ -152,7 +152,7 @@ ol {
 }
 
 .nutrition {
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
 }
 
 .nutrition h3 {
@@ -168,11 +168,8 @@ ol {
 
 .nutrition table {
   border-collapse: collapse;
-  position: relative;
-  left: 15px;
-  height: 125px;
-  width: 315px;
-  margin-bottom: 1rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .nutrition tr {
