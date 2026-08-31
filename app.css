@@ -1,5 +1,22 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+  --color-brown-800: hsl(14, 45%, 36%);
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+  --color-borders: hsl(30, 10%, 90%);
+  --color-blue: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: hsl(30, 54%, 90%);
+  background-color: var(--color-stone-100);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +26,7 @@ body {
 }
 
 .box {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--color-white);
   display: flex;
   max-width: 375px;
   flex-direction: column;
@@ -32,7 +49,7 @@ body {
 
 .box h3 {
   font-family: "Young Serif", sans-serif;
-  color: hsl(14, 45%, 36%);
+  color: var(--color-brown-800);
   align-self: flex-start;
   font-size: 24px;
   font-weight: 400;
@@ -44,7 +61,7 @@ body {
 }
 
 .prep {
-  background-color: hsl(330, 100%, 98%);
+  background-color: var(--color-rose-50);
   border-radius: 10px;
   width: 100%;
   max-width: 320px;
@@ -57,7 +74,7 @@ body {
 }
 
 .prep li::marker {
-  color: hsl(332, 51%, 32%);
+  color: var(--color-rose-800);
 }
 
 .prep h2 {
@@ -65,7 +82,7 @@ body {
   padding: 1rem;
   font-size: 18px;
   font-weight: 600;
-  color: hsl(332, 51%, 32%);
+  color: var(--color-rose-800);
 }
 
 .prep ul {
@@ -103,7 +120,7 @@ ol {
 }
 
 .ingredients li::marker {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-brown-800);
 }
 
 .ingredients h3 {
@@ -131,7 +148,7 @@ ol {
 }
 
 .instructions li::marker {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-brown-800);
 }
 
 .instructions h3 {
@@ -173,7 +190,7 @@ ol {
 }
 
 .nutrition tr {
-  border-bottom: 1px solid hsl(30, 10%, 90%);
+  border-bottom: 1px solid var(--color-borders);
 }
 
 .nutrition tr:last-child {
@@ -204,7 +221,7 @@ ol {
 
 .line1,
 .line2 {
-  border: 1px solid hsl(30, 10%, 90%);
+  border: 1px solid var(--color-borders);
   width: 87%;
 }
 
@@ -215,7 +232,7 @@ ol {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-blue);
 }
 
 @media (max-width: 768px) {
