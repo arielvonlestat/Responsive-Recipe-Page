@@ -242,6 +242,12 @@ ol {
 }
 
 @media (min-width: 768px) {
+  .box img {
+    width: calc(100% - 82px);
+    margin: 32px;
+    border-radius: 10px;
+  }
+
   .box {
     max-width: 700px;
     border-radius: 10px;
@@ -249,76 +255,44 @@ ol {
     margin-bottom: 100px;
   }
 
-  .box img {
-    width: calc(100% - 64px);
-    margin: 32px;
-    border-radius: 10px;
+  .intro h1 {
+    padding: 0 0 0 2.5rem;
+  }
+
+  .intro p {
+    padding-left: 2.5rem;
   }
 
   .prep {
+    padding-left: 1rem;
     max-width: none;
-    width: calc(100% - 64px);
+    width: calc(100% - 82px);
   }
 
   .ingredients {
-    margin-right: 9.2rem;
-  }
-
-  .instructions {
-    margin-left: 0.7rem;
-    padding: 0;
+    margin-right: 8rem;
   }
 
   .instructions ol {
-    height: auto;
-    padding-bottom: 0;
-    display: block;
-    align-items: start;
+    margin-left: 1.5rem;
   }
 
-  .instructions h3 {
-    padding-top: 1rem;
-  }
-
-  .intro h1 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .nutrition p {
-    padding-left: 0;
-  }
-
-  .nutrition h3 {
-    margin: 0;
-    padding-top: 1rem;
-  }
-
-  .nutrition table {
-    width: 100%;
-    left: 0;
+  .instructions h2 {
+    padding-left: 3rem;
   }
 
   .nutrition th {
     font-size: 16px;
-    width: 50%;
+    width: 43.5%;
   }
 
-  .nutrition td {
-    font-size: 16px;
-    font-weight: 600;
-    text-align: start;
-    width: 50%;
-    padding-left: 2rem;
+  .nutrition table {
+    width: 96%;
   }
 
   .attribution {
     position: relative;
     bottom: 50px;
-  }
-
-  .line1,
-  .line2 {
-    width: 90%;
+    right: 20px;
   }
 }
