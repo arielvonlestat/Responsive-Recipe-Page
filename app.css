@@ -62,7 +62,6 @@ body {
 
 .prep h2 {
   font-weight: 700;
-  font-size: 30px;
   padding: 1rem;
   font-size: 18px;
   font-weight: 600;
@@ -206,14 +205,10 @@ ol {
   padding-bottom: 10px;
 }
 
-.line1 {
-  border: 1px solid hsl(30, 10%, 90%);
-  width: 325px;
-}
-
+.line1,
 .line2 {
   border: 1px solid hsl(30, 10%, 90%);
-  width: 325px;
+  width: 87%;
 }
 
 .attribution {
@@ -309,11 +304,7 @@ ol {
     bottom: 50px;
   }
 
-  .line1 {
-    border: 1px solid hsl(30, 10%, 90%);
-    width: 90%;
-  }
-
+  .line1,
   .line2 {
     border: 1px solid hsl(30, 10%, 90%);
     width: 90%;
